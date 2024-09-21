@@ -3,6 +3,7 @@ import { NextResponse } from "next/server";
 
 // See https://clerk.com/docs/references/nextjs/clerk-middleware
 // for more information about configuring your Middleware
+//
 
 const isPublicRoute = createRouteMatcher([
   "/",
